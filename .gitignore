@@ -1,0 +1,89 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# misc
+.DS_Store
+*.pem
+*.key
+*.p12
+*.pfx
+*.tsbuildinfo
+
+# editors
+/.idea/
+/.vscode/
+
+# LaTeX generated files
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+.env*
+!.env.example
+
+# private/local source data and trained binaries
+/data/
+/private/
+/raw/
+*.csv
+*.db
+*.joblib
+*.npy
+*.npz
+*.parquet
+*.pickle
+*.pkl
+*.sqlite
+*.sqlite3
+*.xls
+*.xlsx
+*.zip
+
+# local-only helpers and internal documentation
+/abrir_versao_local.bat
+/checksums.sha256
+/documentation/*.pdf
+/documentation/*.tex
+/documentation/.ipynb_checkpoints/
+
+# vercel
+.vercel
+
+# typescript
+next-env.d.ts
+/dist/
+/.wrangler/
+/.sites-runtime/
+/outputs/
+/work/

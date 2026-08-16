@@ -1,0 +1,34 @@
+{
+  "name": "parfuml",
+  "version": "0.6.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:pages": "next build",
+    "start": "next start",
+    "test": "npm run lint && npm run typecheck && npm run test:public",
+    "test:public": "node --test tests/public-release.test.mjs",
+    "test:pages": "node --test tests/pages-export.test.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern node_modules",
+    "typecheck": "tsc --noEmit --incremental false"
+  },
+  "dependencies": {
+    "next": "16.3.1",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.3.1",
+    "typescript": "5.9.3"
+  },
+  "type": "module",
+  "displayName": "Recomendador de Perfumes do Brasil"
+}
