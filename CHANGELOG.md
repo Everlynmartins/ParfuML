@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.6.1] - 2026-10-24
+
+- Atualizado Next.js de 16.3.1 para 16.4.3 para corrigir vulnerabilidades conhecidas e desbloquear a auditoria obrigatória do GitHub Pages.
+- Atualizadas no lockfile as dependências transitivas vulneráveis, preservando a atualização de source-map-js 1.2.2 da PR #19.
+- Mantidos o código de treinamento, as versões Python e os dados publicados; a comparação de compatibilidade do NumPy foi executada em cópias isoladas.
+- Esclarecida a distinção entre as métricas históricas publicadas e um novo treinamento sobre o catálogo sanitizado.
+
 ## [0.6.0] - 2026-08-16
 
 - Preparada a primeira publicação pública com workflow de GitHub Pages.

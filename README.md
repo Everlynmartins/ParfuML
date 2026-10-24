@@ -8,7 +8,7 @@ Recomendador de perfumes baseado em dados históricos agregados do mercado brasi
 
 Esta é a edição pública e sanitizada do projeto, preparada para execução local e publicação estática no GitHub Pages. A aplicação não depende de API, autenticação ou banco de dados de usuários.
 
-## Versão 0.6.0
+## Versão 0.6.1
 
 1. Dados coletados em 5 de agosto de 2026.
 2. Modelos treinados em 7 de agosto de 2026.
@@ -67,6 +67,8 @@ python3 ml/train_models.py
 ```
 
 O treinamento original foi executado separadamente. Esta edição pública distribui apenas o JSON sanitizado e os resultados agregados; a base bruta e os artefatos serializados não fazem parte dela.
+
+As métricas registradas abaixo pertencem à execução histórica publicada. Um novo treinamento sobre o catálogo sanitizado pode produzir valores diferentes; para avaliar atualizações de bibliotecas, compare as versões usando o mesmo JSON de entrada e o mesmo ambiente.
 
 ## Como a aplicação atende uma consulta
 
