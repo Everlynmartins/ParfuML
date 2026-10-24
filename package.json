@@ -1,6 +1,6 @@
 {
   "name": "parfuml",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "private": true,
   "engines": {
     "node": ">=22.13.0"
@@ -17,7 +17,7 @@
     "typecheck": "tsc --noEmit --incremental false"
   },
   "dependencies": {
-    "next": "16.3.1",
+    "next": "16.4.3",
     "react": "19.2.6",
     "react-dom": "19.2.6"
   },
